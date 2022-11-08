@@ -8,6 +8,7 @@ System.out.print("体重(kg)=");
 double weight = scanner.nextDouble();
 double BMI= + weight / height / height;
 System.out.println(String.format("%.2f", BMI));
+
 	}
 }
 
